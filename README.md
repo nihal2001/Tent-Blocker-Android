@@ -6,7 +6,7 @@ An independent Android port of TentBlocker. Instagram and YouTube, without the r
 
 [Download the APK](https://github.com/nihal2001/Tent-Blocker-Android/releases/download/v1.0.0/TentBlocker-Android-v1.0.0.apk) directly on your Android phone, open the file, and tap **Install**. If prompted, allow your browser or file manager to install unknown apps.
 
-Requires Android 8.0 or newer. This is a debug/test build. See the [release page](https://github.com/nihal2001/Tent-Blocker-Android/releases/tag/v1.0.0) for installation details. While the repository is private, downloads require GitHub sign-in and repository access.
+Requires Android 8.0 or newer. This is a debug/test build. See the [release page](https://github.com/nihal2001/Tent-Blocker-Android/releases/tag/v1.0.0) for installation details. The repository and APK are public; no GitHub account is required to download.
 
 ## Features
 
