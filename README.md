@@ -4,9 +4,9 @@ An independent Android port of TentBlocker. Instagram and YouTube, without the r
 
 ## Install on Android
 
-[Download the APK](https://github.com/nihal2001/Tent-Blocker-Android/releases/download/v1.0.0/TentBlocker-Android-v1.0.0.apk) directly on your Android phone, open the file, and tap **Install**. If prompted, allow your browser or file manager to install unknown apps.
+[Download the APK](https://github.com/nihal2001/Tent-Blocker-Android/releases/download/v1.0.1/TentBlocker-Android-v1.0.1.apk) directly on your Android phone, open the file, and tap **Install**. If prompted, allow your browser or file manager to install unknown apps.
 
-Requires Android 8.0 or newer. This is a debug/test build. See the [release page](https://github.com/nihal2001/Tent-Blocker-Android/releases/tag/v1.0.0) for installation details. The repository and APK are public; no GitHub account is required to download.
+Requires Android 8.0 or newer. This is a debug/test build. See the [release page](https://github.com/nihal2001/Tent-Blocker-Android/releases/tag/v1.0.1) for installation details. The repository and APK are public; no GitHub account is required to download.
 
 ## Features
 
@@ -48,3 +48,9 @@ Modern WebView versions inject filters at document start. Older providers fall b
 ## Verification
 
 `testDebugUnitTest` exercises daytime and overnight schedules, Sunday/Monday rollover, excluded weekdays, exact timer expiry, and independent block rules. `node scripts/test-filters.cjs` checks the ported scripts' navigation rules. See `TESTING.md` for the device acceptance checklist.
+
+## Updates for GitHub installs
+
+GitHub does not update installed apps automatically. Users can install [Obtainium](https://github.com/ImranR98/Obtainium), add `https://github.com/nihal2001/Tent-Blocker-Android` as an app source, and include prereleases while this app is in testing. Obtainium checks releases and handles update downloads; Android may still request installation confirmation depending on device and permissions.
+
+Published APK updates must keep the same application ID and signing certificate and increase `versionCode`. The published test APKs use this developer machine's debug signing certificate; CI artifacts have a different debug key and must not be used as updates to these releases. Before production distribution, migrate deliberately to a protected release signing key (changing from the existing debug key requires a reinstall). Never commit signing keys to Git.

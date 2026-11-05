@@ -192,7 +192,7 @@ public final class MainActivity extends Activity {
     }
     private String script(boolean youtube) {
         return youtube?"window.__tbYT="+prefs.youtubeJson()+";\n"+asset("youtube.js"):
-            asset("instagram.js")+"\nif(document.documentElement)document.documentElement.classList.toggle('tb-no-discover',"+!prefs.flag("instagram.discover",false)+");";
+            asset("reel-guard.js")+"\n"+asset("instagram.js")+"\nif(document.documentElement)document.documentElement.classList.toggle('tb-no-discover',"+!prefs.flag("instagram.discover",false)+");";
     }
     private void installScript(WebView web,boolean youtube) {
         if(WebViewFeature.isFeatureSupported(WebViewFeature.DOCUMENT_START_SCRIPT)) {

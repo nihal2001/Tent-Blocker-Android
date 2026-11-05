@@ -6,6 +6,7 @@ Build checks do not substitute for live website and accessibility testing. Use a
 - Instagram: visit all tabs, open a message/story/comment sheet, go Back, and verify the native bar hides when necessary. Confirm Profile resolves to the signed-in profile and DM count updates.
 - Switch between wrappers through Home and verify each retains its place; audio should pause when leaving a wrapper.
 - Hide tabs, try hiding the final one, and toggle Discover. Search results should remain available.
+- Open a reel sent in a DM; try swiping up/down, mouse-wheel scrolling, and keyboard navigation. Only that reel should play. Open and scroll comments, return to the DM, and open a different shared reel.
 - Follow a Reels feed link and a direct reel link. The feed should redirect; a single reel should remain accessible.
 - Toggle each YouTube feed preference. Check home, subscriptions, watch-page recommendations, channel Shorts, and a direct Shorts link.
 - Test fullscreen video, rotation, picker upload, external HTTPS links, Back, and airplane-mode refresh.
