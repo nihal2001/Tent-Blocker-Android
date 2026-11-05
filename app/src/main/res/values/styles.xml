@@ -1,0 +1,5 @@
+<resources><style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+<item name="android:fontFamily">sans</item><item name="android:colorAccent">#245C4A</item>
+<item name="android:windowLightStatusBar">true</item><item name="android:windowActionModeOverlay">true</item>
+<item name="android:windowBackground">#FAFAF7</item><item name="android:navigationBarColor">#FAFAF7</item>
+</style><string name="blocker_description">When you enable app blocking, TentBlocker observes which app is in the foreground and returns you to Home when Instagram or YouTube matches your block rules. It does not read screen content, type, or collect messages. App identity and usage are processed only on your device. Disable this service at any time in Accessibility settings.</string></resources>
